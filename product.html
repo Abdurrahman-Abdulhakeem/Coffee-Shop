@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="showcase-img">
+        <div class="container">
+            <div class="showcase">
+                <div class="header">
+                    <h2 class="title">RAMMY</h2>
+                    <nav class="nav">
+                        <ul class="navbar">
+                            <a href="index.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="product.html">
+                                <li>Product</li>
+                            </a>
+                        </ul>
+                        <div class="bars"><i class="fa fa-bars fa-2x"></i></div>
+                    </nav>
+
+                </div>
+                <!-- Toggle -->
+                <div class="container">
+                    <div class="menu">
+                        <nav class="nav-small">
+                            <ul class="navbar-small">
+                                <a href="index.html">
+                                    <li> Home</li>
+                                </a>
+                                <a href="product.html">
+                                    <li>Product</li>
+                                </a>
+                                <a href="product.html#go-to">
+                                    <li class="order-small">Order</li>
+                                </a>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Toggle Ends -->
+                <div class="showcase-text anim">
+                    <h1>Get the best product of your choice.</h1>
+                    <p>Bringing you the most delicious coffee from Africa!</p>
+                    <a href="index.html#news" class="btn-prm"><button>Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <section class="product">
+        <div class="container">
+            <div class="place-order" id="go-to">
+                <div class="form-order anim" id="myord">
+                    <h3> Buy Item</h3>
+                    <form action="" class="order-form">
+                        <div class="name-order">
+                            <select name="item" id="item-name">
+                                <option value="Select item" selected disabled>Select Item</option>
+                                <option value="Espresso">Espresso</option>
+                                <option value="Latte">Latte</option>
+                                <option value="Cappuccino">Cappuccino</option>
+                                <option value="Caffe mocha">Caffe mocha</option>
+                            </select>
+                        </div>
+                        <div class="name-order">
+                            <input type="number" name='quantity' class="quantity" placeholder="Quantity">
+                        </div>
+                        <div class="sel-order" id="select">
+
+                        </div>
+                        <input type="submit" value="Place Order" id="btn">
+                    </form>
+                    <div>
+                        <ul id="get-item"></ul>
+                    </div>
+
+
+                </div>
+                <a href="#myord">
+                    <div class="prod-choice">
+                        <div class="cup1 anim" id="cup1-id">
+                            <span class="prod1"><img src="images/cup1.jfif" alt="product" width="150px"
+                                    height="130px"></span>
+                            <h3>Espresso</h3>
+                            <h4>$120.00</h4>
+
+                        </div>
+                </a>
+                <a href="#myord">
+                    <div class="cup1 anim" id="cup2-id">
+                        <span class="prod1"><img src="images/cup2.jfif" alt="product" width="150px" height="130px"
+                                width="150px" height="130px"></span>
+                        <h3>Latte</h3>
+                        <h4>$100.00</h4>
+                    </div>
+                </a>
+                <a href="#myord">
+                    <div class="cup1 anim" id="cup3-id">
+                        <span class="prod1"><img src="images/cup3.jpg" alt="product" width="150px"
+                                height="130px"></span>
+                        <h3>Cappuccino</h3>
+                        <h4>$200.00</h4>
+                    </div>
+                </a>
+                <a href="#myord">
+                    <div class="cup1 anim" id="cup4-id">
+                        <span class="prod1"><img src="images/cup5.jfif" alt="product" width="150px"
+                                height="130px"></span>
+                        <h3>Caffe mocha</h3>
+                        <h4>$150.00</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <footer class="foot">
+        <div class="container footer">
+            <div class="foot-section">
+                <div class="use">
+                    <h3>Useful Links</h3>
+                    <li class="links"><a href="#">Twitter</a></li>
+                    <li class="links"><a href="#">Facebook</a></li>
+                    <li class="links"><a href="#">Instagram</a></li>
+                </div>
+
+                <div class="about">
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, maiores culpa vel
+                        expedita amet doloribus.</p>
+                </div>
+
+                <!-- <div class="contact">
+                    <h3>Contact</h3>
+
+                </div> -->
+                <div class="locate">
+                    <h3>Location</h3>
+                    <h4>Africa. 🌍</h4>
+                </div>
+            </div>
+
+            <p class="copy">&copy; 2022</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
